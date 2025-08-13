@@ -213,7 +213,7 @@ const nodeTypescriptConfig = {
 // Add the node config to the eslint config
 eslintConfig.push({
 	...nodeTypescriptConfig,
-	files: ["vite.config.ts"],
+	files: ["vite.config.ts", "config.ts"],
 });
 
 // Set files pattern for regular app files

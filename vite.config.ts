@@ -24,6 +24,13 @@ export default defineConfig({
 			],
 		}),
 	],
+	resolve: {
+		alias: {
+			"@": path.resolve(__dirname, "./src"),
+			"@graphqlClient": path.resolve(__dirname, "./src/config.ts"),
+			"@graphql": path.resolve(__dirname, "./src/graphql"),
+		},
+	},
 	server: {
 		host: true,
 		strictPort: true,

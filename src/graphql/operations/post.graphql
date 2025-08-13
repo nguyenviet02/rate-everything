@@ -1,0 +1,11 @@
+query getPostsCollection {
+  postsCollection {
+    edges {
+      node {
+        author_id
+        id
+        title
+      }
+    }
+  }
+}

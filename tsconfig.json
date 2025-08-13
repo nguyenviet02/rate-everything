@@ -6,6 +6,11 @@
 		"module": "ESNext",
 		"skipLibCheck": true,
 		"esModuleInterop": true,
+		"paths": {
+			"@/*": ["./src/*"],
+			"@graphql/*": ["./src/graphql/*"],
+			"@graphqlClient": ["./src/config.ts"]
+		},
 
 		/* Bundler mode */
 		"moduleResolution": "bundler",
